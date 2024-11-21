@@ -35,8 +35,8 @@ public class Main {
         for (Integer c:counts) {
             if(c>0){
                 result=(double)c/(double)s;
-                String sonuc = String.format("%.6f", result);
-                System.out.println(sonuc);
+                String son = String.format("%.6f", result);
+                System.out.println(son);
             }
         }
     }
